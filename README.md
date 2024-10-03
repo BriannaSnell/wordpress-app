@@ -1,4 +1,4 @@
-# wordpress-app using terraform
+# Terraform code to Launch a WordPress application with RDS
 
 data.tf: This file defines a Terraform data block that retrieves the latest Amazon Machine Image (AMI) for Linux 2 from AWS. It specifies that the AMI should be owned by Amazon and filters the search based on the AMI name pattern and virtualization type.
 
